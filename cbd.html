@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>CBD 2023</title>
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="Content-Language" content="zh-cn">
+	<meta name="robots" content="all">
+	<meta name="author" content="">
+	<!--    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+	<meta name="Copyright" content="Copyright All Rights Reserved.">
+	<meta name="MSSmartTagsPreventParsing" content="true">
+	<meta http-equiv="imagetoolbar" content="false">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- <link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> -->
+	<link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/theme-style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/list.css">
+	<link rel="stylesheet" type="text/css" href="./css/news-add.css">
+	<link rel="stylesheet" type="text/css" href="./css/myindex.css">
+	<!-- <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=FPahne8aRnWy3zwMeh94Mz91"></script> -->
+
+	<style type="text/css">
+		.justify {
+			text-align: justify;
+		}
+	</style>
+
+	<script src="https://kit.fontawesome.com/7e3ab90191.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" language="JavaScript">
+	var jiansini = 1;//用来监视是否有鼠标移入 监视变量
+	var index = 0;//显示的索引
+	function changeMenu() {
+		if (jiansini == 1) {
+			if (index >= 4)//如果超出列表长度就归零
+			{
+				index = 0
+			}
+			document.getElementById("show_image").src = "./img/GXBG.jpg";
+			// console.log("images/2021/xa" + index + ".png")
+			index++;
+		}
+	}
+
+	//定时器循环调用切换方法
+	window.onload = function () {
+		window.setInterval(changeMenu, 4000);
+	}
+	</script>
+</head>
+<body>
+<div class="pagePanel" id="header">
+	<div class="container header-image">
+		<div class="row">
+			<div class="col-md-12 header-container">
+				<img src="./img/GXBG.jpg" class="header-image" style="height: 100%; width: 100%;" id="show_image">
+				<div class="headercontent">
+					<div class="hero-heading-top">Dec 18-19, 2023, Ocean Flower Island, Hainan, China</div>
+					<h3 class="hero-heading-main">CBD&nbsp;&nbsp;2023</h3>
+					<div class="hero-heading-bottom">
+						<strong>2023 The Eleventh International Conference on Advanced Cloud and Big Data(CBD 2023)</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- <div class="one">
+		<div class="panel1">
+			<div class="title1 center">NOV 4-5, 2022, GuiLin, CHINA</div>
+			<h3 class="first-title center">CBD&nbsp;&nbsp;2022</h3>
+			<div class="title2 center">
+				<strong>2022 The Tenth International Conference on 
+Advanced Cloud and Big Data
+</strong>
+			</div>	
+		</div> -->
+
+<div class="pagePanel" id="menu">
+    <div class="header">
+        <div class="header-wrapper">
+            <div class="container">
+                <!--                <div class="row">-->
+                <!--                    <div class="col-sm-2 col-xs-6 navigation-header" style="text-align: center; height:auto;">-->
+                <!--                        <div class="table-container" style="margin-left: 10px; ">-->
+                <!--                            <div class="cell-container">-->
+                <!--                                <a href="#Registration"><span class="logo">Final Submission</span></a>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <div class="col-sm-10 col-xs-6 navigation-container">
+                    <div class="table-container nav-menu">
+                        <div class="cell-container">
+                            <div id="navigation">
+                                <ul id="menu-theme-main" class="navigation-list">
+
+                                    <!--  <li id="menu-item-2646" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2646">
+                                         <a href="#TPC">TPC</a>
+                                     </li> -->
+                                    <!--
+                                    <li id="menu-item-2649" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2649">
+                                        <a href="#Registration">Submission</a>
+                                    </li>
+                                    -->
+                                    <!-- <li id="menu-item-2652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2652">
+                                        <a href="#Forum">Technical Forum</a>
+                                    </li> -->
+
+                                    <li id="menu-item-2647"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2647">
+                                        <a href="#Organizers">Organizers</a>
+                                    </li>
+
+                                    <li id="menu-item-2650"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2650">
+                                        <a href="#Keynotes">Keynotes</a>
+                                    </li>
+
+                                    <li id="menu-item-2653"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2650">
+                                        <a href="#Program">Program</a>
+                                    </li>
+
+                                    <li id="menu-item-2649"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2649">
+                                        <a href="#Registration">Registration</a>
+                                    </li>
+
+                                    <li id="menu-item-2648"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2648">
+                                        <a href="#Venue">Venue</a>
+                                    </li>
+
+                                    <!--
+                                    <li id="menu-item-2655" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2648">
+                                        <a href="../ffc2017" target="_blank">FFC2017</a>
+                                    </li>
+                                    -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nav_rep">
+                        <div class="box">
+                            <div class="lineW"></div>
+                            <div class="lineW"></div>
+                            <div class="lineW"></div>
+                        </div>
+                        <div class="box_rep">
+                            <span>＋</span>
+                        </div>
+                        <ul class="con">
+                            <li><span><a href="#Organizers">Organizers</a></span></li>
+                            <!-- <li><span><a href="#TPC">TPC</a></span></li> -->
+                            <li><span><a href="#Venue">Venue</a></span></li>
+                            <li><span><a href="#Registration">Registration</a></span></li>
+                            <li><span><a href="#Program">Program</a></span></li>
+                            <li><span><a href="#Keynotes">Keynotes</a></span></li>
+                            <!--  <li><span><a href="#Forum">Technical Forum</a></span></li> -->
+                            <!--  <li><span><a href="ffc.html" target="_blank">FFC2017</a></span></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="pagePanel" id="notice" style="margin-top:50px">
+    <div class="container">
+        <div class="row">
+			<div class="row show align-paddng">
+                <div class="col-md-12 cfp">
+                	<!--zds
+					<h4 class="highlight1" style="margin-top: 30px; color:#333"><b>Updates:</b></h4>
+
+						<p style="color:#333" class="justify">
+							<b>
+								1. We have invited Academician Prof. Schahram Dustdar(TU Wien, Austria), Prof. Kun Yang(University of Essex, UK), Prof. Dusit Tao Niyato(Nanyang Technological University, Singapore) as keynote speakers.
+							</b>
+						</p>
+					-->
+<!--
+						<p style="color:#333" class="justify">
+							<b>
+								2. Final program is available online at <a href="https://www.cbd-conference.net/2022/files/CBD2022-Program.pdf">Program</a>.
+							</b>
+                    	</p>
+						<p style="color:#333" class="justify">
+							<b>
+								3. Awards are announced at <a href="https://www.cbd-conference.net/2022/files/CBD2022-best_paper.pdf">Awards</a>.
+							</b>
+                    	</p>
+-->
+				</div>
+			</div>
+		</div>
+	</div>
+		
+		<!-- <div class="panel2">
+			<div class="container">
+				<div class="row">
+
+
+					<div class="row show align-paddng">
+						<div class="col-md-12 cfp">
+
+							<h4 class="highlight1" style="margin-top: 30px; color:#333"><b>Updates:</b></h4>
+
+							<p style="color:#333" class="justify">
+								<b>
+									1. CBD 2022 registration will open on Oct 8, 2022.
+								</b>
+							</p>
+							<p></p>
+						</div>
+					</div>
+
+				</div>
+			</div> -->
+<!-- zds Awards
+	<div class="pagePanel" id="Awards" style="margin-top:50px">
+		<div class="container">
+			<div class="row">
+				<div class="center-block">
+					<img src="./img/award.png" >
+				</div>
+				<div class="center-block">
+					<h3 style="text-align: center">Awards</h3>
+				</div>
+			</div>
+			<div style="background-color:lightcyan; margin-bottom: 1em; padding-top: 2em; padding-bottom: 1em; padding-left: 1em; padding-right: 1em; display: block; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius: 3%;">
+				
+
+				<h2>Best Paper Award</h2>
+				<p></p>
+				<b>PEACE: Towards Optimizing Monitoring Utility of Unmanned Aerial Vehicles with Adverse Effect Constraints</b>
+				<p>Jingwu Wang, Weijun Wang, Haipeng Dai, Lanlan Li and Guihai Chen</p>
+
+				<h2>Best Paper Runner Up Award </h2>
+				<p></p>
+				<b>Attentional Meta-path Contrastive Graph Convolutional Networks for Knowledge Concept Recommendation</b>
+				<p>Weiwei Wang, Liting Wei, Yun Li, Yi Zhu, Bin Li and Lejun Zhang</p>
+
+				<h2>Best Student Paper Award</h2>
+				<p></p>
+				<b>Realizing Power-efficient Encryption Communication for Computational RFID Tags</b>
+				<p>Yihang Song, Li Lu, Jiqing Gu and Chong Zhang</p>
+
+				<h2>Best Student Paper Runner Up Award</h2>
+				<p></p>
+				<b>Unsupervised Semantic Segmentation with Feature Enhancement for Few-shot Image Classification</b>
+				<p>Xiang Li, Zhuoming Xu, Qi Xu and Yan Tang</p>
+
+				<h2>Best Application Paper Award</h2>
+				<p></p>
+				<b>Learning Inter-Frame Information for Space-Time Video Super-Resolution</b>
+				<p>Zhuo Zhang, Haifu Guo, Sheng Ren and Kehua Guo</p>
+
+				<h2>Best Application Paper Runner Up Award</h2>
+				<p></p>
+				<b>Efficient Online and Privacy-preserving Medical Pre-diagnosis Based on Growing Learning Vector Quantization</b>
+				<p>Xiao Zheng, Qiuyue Zhang, Xiujun Wang, Xuan Tang and Chunlai Du</p>
+
+			</div>
+		</div>
+	</div>
+-->
+	<div class="pagePanel" id="callforpaper" style="margin-top:50px">
+		<div class="container">
+			<div class="row">
+				<div class="center-block">
+					<img src="./img/lunwen.png" >
+				</div>
+				<div class="center-block">
+					<h3 style="text-align: center">Call for Paper</h3>
+				</div>
+			</div>
+			<div class="row align-padding">
+				<div class="col-md-12">
+					<h4 style="text-align: center">2023 The Eleventh International Conference on Advanced Cloud and Big Data (CBD 2023)</h4>
+					<h4 style="text-align: center">December 18-19, 2023, Ocean Flower Island, Hainan, China</h4>
+				</div>
+			</div>
+
+			<div class="row show align-paddng">
+				<div class="col-md-12 col-xs-12" style="padding-left:10px;padding-right:10px;">
+					<div class="row">
+						<div class="col-md-12 col-xs-12">
+							<h4 class="highlight1">Scope of Conference</h4>
+							<p class="cfp justify">The International Conference on Advanced Cloud and Big Data (CBD) provides a forum for both academics and practitioners working on cloud computing and big data technologies to explore new ideas, share their experiences and leverage each other's perspectives. Besides the latest research achievements, this conference also covers cloud/big data industry practices and their broad applications, and gives all participants a chance to identify the new emerging “hot” trends in these areas. We solicit original papers on a wide range of cloud computing and big data topics that can be divided into three tracks but are not limited to:</p>
+						</div>
+						<div class="col-md-6 col-xs-6">
+							<ul class="cfp" style="font-size: 15px;">
+								<li style="color: #fe4915">Research Track</li>
+								<li>• Cloud Security and Privacy</li>
+								<li>• Cloud Data Center Networking</li>
+								<li>• Cloud Virtualization</li>
+								<li>• Cloud Storage</li>
+								<li>• Multi/Hybrid/Inter Cloud</li>
+								<li>• Big Data Processing/Mining/Query</li>
+								<li>• Big Data Security and Privacy</li>
+								<li>• Edge Computing and its applications</li>
+								<li>• Deep Learning/Federated Learning</li>
+								<li>• Cloud and Big data Management</li>
+								<li>• Blockchain and its Applications</li>
+								<li>• Social Network</li>
+								<li>• Edge Computing Architecture and Algorithm</li>
+								<li>• Machine Learning and AI at Edge</li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-xs-6">
+							<ul class="cfp" style="font-size: 15px;">
+								<li style="color: #fe4915">Industry Track</li>
+								<li>• Cloud Computing Solutions</li>
+								<li>• Cloud Computing Specifications/Standards</li>
+								<li>• Cloud and Big Data in Industry</li>
+								<li>• Big Data in Smart City/Home </li>
+								<li>• Edge Computing Solutions</li>
+								<li>• Blockchain Solutions</li>
+								
+							</ul>
+							<ul class="cfp" style="font-size: 15px;">
+								<li style="color: #fe4915">Application Track</li>
+								<li>• Cloud based Industrial Internet</li>
+								<li>• Edge-based Industrial Internet</li>
+								<li>• Mobile Edge Computing</li>
+								<li>• Machine/Deep Learning Applications</li>
+								<li>• Social Networking</li>
+								<li>• Knowledge Graph</li>
+								<li>• Blockchain Applications</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row show align-paddng">
+				<div class="col-md-12 cfp">
+					<h4 class="highlight1">Paper Submission</h4>
+					<p style="color:#333" class="justify">
+						<!-- Submitted manuscripts must be formatted in standard IEEE US Letter Format: -->
+						<!-- http://www.ieee.org/conferences_events/conferences/publishing/templates.html and must be submitted via EasyChair <a href="https://www.easychair.org/conferences/?conf=cbd2020" class="aa">(https://www.easychair.org/conferences/?conf=cbd2020)</a> as PDF files. -->
+						<!-- The review version is limited to 6 pages (IEEE proceedings format), including references and illustrations. Submitted papers should not be previously published in or be under consideration for publication -->
+						<!-- in another conference or journal. Submission of a paper should be regarded as an undertaking that, should the paper be accepted, at least one of the authors will attend the conference to present the paper. -->
+						Submitted manuscripts must be formatted in 
+						<a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">
+							standard IEEE US Letter Format
+						</a>
+						and must be submitted via 
+						<a href="https://easychair.org/conferences/?conf=cbd2023">
+							EasyChair
+						</a>
+						as PDF files. 
+						The review version is limited to 6 pages (IEEE proceedings format), including references and illustrations. Submitted papers should not be previously published in or be under consideration for publication in another conference or journal. Submission of a paper should be regarded as an undertaking that, should the paper be accepted, at least one of the authors will attend the conference to present the paper.
+						<!--Please note that all accepted papers must be registered (with regular registration fee RMB ￥3600 and RMB ￥650/page for additional pages ) in order for them to be included in the conference proceedings. -->
+					</p>
+				</div>
+			</div>
+			<div class="row show align-paddng">
+				<div class="col-md-12 cfp">
+					<h4 class="highlight1">Publication</h4>
+					<p class="justify" >
+						All submitted papers will be reviewed by program committee members based on their originality, significance, relevance and clarity of presentation. Accepted papers will be published by Conference Publishing Services (CPS) and will be submitted for indexing to EI (Compendex). Authors of selected papers will be invited to submit revised and expanded version of their papers to be considered for publication in special issues of well-known international journals such as IEEE Network (IF: 10.294), Information Sciences (IF: 8.233), Information Fusion (IF: 17.564), Tsinghua Science & Technology (IF: 3.515), Big Data Mining and Analytics (IEEE), etc.
+					</p>
+					<!-- <br> -->
+					
+					<!-- <span style="font-weight: bold;" class="spanofpadding">(1)Tsinghua Science and Technology </span>
+					<span style="font-weight: bold; color: red;">(SCI, IF = 1.365)</span>
+					<br>
+					
+					<span style="font-weight: bold;"class="spanofpadding">(2)Tsinghua Science and Technology </span>
+					<span style="font-weight: bold; color: red;">(SCI, IF = 1.365)</span>
+					<br>
+					
+					<span style="font-weight: bold;"class="spanofpadding">(3)Tsinghua Science and Technology </span>
+					<span style="font-weight: bold; color: red;">(SCI, IF = 1.365)</span> -->
+					<!-- <br> -->
+				</div>
+			</div>
+			
+			<div class="row show align-paddng">
+				<div class="col-md-12 col-xs-12" style="padding-left:10px;padding-right:10px;">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12">
+							<h4 class="highlight1">Important Dates</h4>
+							<ul class="cfp">
+								<!--
+								<li>Workshop Proposal Due:
+									
+									<span style='color:red'>July 15, 2023</span>
+								</li>-->
+								<li>Paper Submission Deadline:
+									<span style='color:red'>September 01, 2023</span>
+								</li>
+								<li>
+									Notification of acceptance:
+									<span style='color:red'>October 15, 2023</span>
+								</li>
+								<li>
+									Camera ready Due:
+									<span style='color:red'>October 31, 2023</span>
+								</li>
+								<!--
+								<li>
+									Registration Deadline:
+									<span style='color:red'>Coming soon</span>
+								</li>-->
+								<li>
+									Conference Date:
+									<span style='color:red'>December 18-19, 2023</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pagePanel" id="Organizers" style="margin-top:20px">
+		<div class="container">
+			<div class="row">
+				<div class="center-block combine">
+					<img src="./img/zhuzhi.png" class="img-xiao">
+				</div>
+				<div class="center-block combine">
+					<img src="./img/tpc.png" class="img-xiao">
+				</div>
+				<div class="center-block combine bottom">
+					<h3 style="text-align: center" class="looked">Organizers</h3>
+				</div>
+				<div class="center-block combine bottom">
+					<h3 style="text-align: center">TPC</h3>
+				</div>
+			</div>
+			<div class="row align-paddng l_Organizers">
+				<div class="col-md-12"><h4>Organizing &amp; Program Committees</h4></div>
+			</div>
+			<div class='row align-paddng l_Organizers'>
+				<table class="speaker-table">
+					<tr>
+						<td style="width:35%">General Chairs</td>
+						<td>
+							<h5>Laurence T. Yang, Hainan Univ., China</h5>
+							<h5>Yongduan Song, Chongqing Univ., China</h5>
+							<h5>Mohammad S. Obaidat, Univ. of Jordan, Jordan</h5>
+							
+						</td>
+					</tr>
+					<tr>
+						<td>Program  Chairs</td>
+						<td>
+							<h5>Hai Jiang, Arkansas State Univ., USA</h5>
+							<h5>Fang Dong, Southeast Univ., China</h5>
+							<h5>Mohammad M. Hassan, King Saud Univ., KSA</h5>
+							 
+						</td>
+					</tr>
+					<tr>
+						<td>Executive Chairs</td>
+						<td>
+							<h5>Zhi Zhou, Sun Yat-sen Univ., China</h5>
+							<h5>Yuan Gao, Hainan Univ., China</h5>
+							<h5>Jing Yang, Hainan Univ., China</h5>
+							<!-- <h5>Yi Pan, Georgia State University, USA</h5> -->
+						</td>
+					</tr>
+					<tr>
+						<td>Publicity Chairs</td>
+						<td>
+							<h5>Runqun Xiong, Southeast Univ., China</h5>
+							<h5>Youqi Li, Beijing Inst. of Tech., China</h5>
+							<h5>Chi Zhou, Shenzhen Univ., China</h5>
+							
+						</td>
+					</tr>
+					<tr>
+						<td>Publication Chairs</td>
+						<td>
+							<h5>Jinghui Zhang, Southeast Univ., China</h5>
+							<h5>He Chen, Tsinghua Univ. Press, China</h5>
+							<h5>Shengxin Dai, Sichuan Univ., China</h5>
+							<!-- <h5>Jinghui Zhang, Southeast University, China</h5> -->
+						</td>
+					</tr>
+					<tr>
+						<td>Web Chairs</td>
+						<td>
+							<h5>Jiawei Wang, The Univ. of Warwick, UK</h5>
+							<h5>Na Song, Hainan Univ., China</h5>
+							
+						</td>
+					</tr>
+					<tr>
+						<td>Steering Chairs</td>
+						<td>
+							<h5>Laurence T. Yang, Hainan Univ., China</h5>
+							<h5>Junzhou Luo, Southeast Univ., China</h5>
+							<h5>Yi Pan, Shenzhen Inst. of Adv. Tech., CAS, China</h5>
+						</td>
+					</tr>
+			</table>
+			</div>
+
+			<div class="row align-paddng l_tpc" style="display: none;">
+				<div class="col-md-12 ">
+					<h4 style="padding-left: 10px;">Technical Program Committees:Coming Soon</h4>
+				</div>
+				<div class="col-md-12 ">
+					<table class="speaker-table info">
+						<tbody>
+
+							<!--
+
+							<tr>
+								<td style="width:20%">Xianxian Li</td>
+								<td style="width: 30%;">lixx@gxnu.edn.cn</td>
+								<td>Guangxi Normal University</td>
+							</tr>
+							<tr>
+								<td style="width:20%">Zhenjun Tang</td>
+								<td style="width: 30%;">tangzj230@163.com</td>
+								<td>Guangxi Normal University</td>
+							</tr>
+							<tr>
+								<td style="width:20%">Zhi Li</td>
+								<td style="width: 30%;">zhili@gxnu.edu.cn</td>
+								<td>Guangxi Normal University</td>
+							</tr>
+							<tr>
+								<td style="width:20%">Feng YU</td>
+								<td style="width: 30%;">yufeng@gxun.edu.cn</td>
+								<td>Guangxi Normal University</td>
+							</tr>
+							<tr>
+								<td style="width:20%">Li-e Wang</td>
+								<td style="width: 30%;">wle3@163.com</td>
+								<td>Guangxi Normal University</td>
+							</tr>
+							<tr>
+								<td style="width:20%">Jinyan Wang</td>
+								<td style="width: 30%;">wangjy612@gxnu.edu.cn</td>
+								<td>Guangxi Normal University</td>
+							</tr>
+							<tr>
+								<td style="width:20%">Huimin Zhang</td>
+								<td style="width: 30%;">cchuiminzhang@outlook.com</td>
+								<td>Guangxi Normal University</td>
+							</tr>
+							<tr>
+								<td style="width:20%">Bineng Zhong</td>
+								<td style="width: 30%;">bnzhong@gxnu.edu.cn</td>
+								<td>Guangxi Normal University</td>
+							</tr>
+							<tr>
+								<td style="width:20%">Zhixin Li</td>
+								<td style="width: 30%;">lizx@gxnu.edu.cn</td>
+								<td>Guangxi Normal University</td>
+							</tr>
+							<tr>
+								<td style="width:20%">Xiaolan Xie</td>
+								<td style="width: 30%;">237290696@qq.com</td>
+								<td>Guilin University of Technology</td>
+							</tr>
+							<tr>
+								<td style="width:20%">Peng Liu</td>
+								<td style="width: 30%;">liupeng@gxnu.edu.cn</td>
+								<td>Guangxi Normal University</td>
+							</tr>
+							
+							<tr>
+								<td style="width:20%">Jinghui Zhang</td>
+								<td style="width: 30%;">jhzhang@seu.edu.cn</td>
+								<td>Southeast University</td>
+							</tr>
+							
+							<tr>
+								<td style="width:20%">Yifei Lu</td>
+								<td style="width: 30%;">luyifei@njust.edu.cn</td>
+								<td>Nanjing University of Science and Technology</td>
+							</tr>
+						
+							<tr>
+								<td>Xiaofan Liu</td>
+								<td>xfliu@seu.edu.cn</td>
+								<td>Southeast University</td>
+							</tr>
+	
+							<tr>
+								<td>Lu Zhang</td>
+								<td>luzhang@njue.edu.cn</td>
+								<td>Nanjing University of Finance and Economics</td>
+							</tr>
+							<tr>
+								<td>Jun Shen</td>
+								<td>jshen@uow.edu.au</td>
+								<td>University of Wollongong</td>
+							</tr>
+							<tr >
+								<td>Qun Jin</td>
+								<td>jin@waseda.jp</td>
+								<td>Waseda University</td>
+							</tr>
+							<tr>
+								<td>Darren Xu</td>
+								<td>dxu@tnsi.com</td>
+								<td>Transaction Network Services</td>
+							</tr>
+							<tr>
+								<td>Jingya Zhou</td>
+								<td>jy_zhou@suda.edu.cn</td>
+								<td>Soochow University</td>
+							</tr>
+							<tr>
+								<td>Thomas Rauber</td>
+								<td>rauber@uni-bayreuth.de</td>
+								<td>University Bayreuth</td>
+							</tr>
+							<tr>
+								<td>Gongxuan Zhang</td>
+								<td>gongxuan@mail.njust.edu.cn</td>
+								<td>Nanjing University of Science and Technology</td>
+							</tr>
+							<tr>
+								<td>Wenjia Wu</td>
+								<td>wjwu@seu.edu.cn</td>
+								<td>Southeast University</td>
+							</tr>
+							<tr>
+								<td>Pengwei Wang</td>
+								<td>pwei.wang@gmail.com</td>
+								<td>Donghua University</td>
+							</tr>
+							<tr>
+								<td>Fei Teng</td>
+								<td>fteng@swjtu.edu.cn</td>
+								<td>Southwest Jiaotong Unversity</td>
+							</tr>
+							<tr>
+								<td>Tianzhang Xing</td>
+								<td>XTZ@nwu.edu.cn</td>
+								<td>Northwest University</td>
+							</tr>
+							<tr>
+								<td>Gaofeng Zhang</td>
+								<td>g.zhang@hfut.edu.cn</td>
+								<td>Hefei University of Technology</td>
+							</tr>
+							<tr>
+								<td>Feng Shan</td>
+								<td>shanfeng@seu.edu.cn</td>
+								<td>Southeast University</td>
+							</tr>
+							<tr>
+								<td>Runqun Xiong</td>
+								<td>rxiong@seu.edu.cn</td>
+								<td>Southeast University</td>
+							</tr>
+							<tr>
+								<td>Zhen Ling</td>
+								<td>zhenling@seu.edu.cn</td>
+								<td>Southeast University</td>
+							</tr>
+							<tr>
+								<td>Xiao Liu</td>
+								<td>xiao.liu@deakin.edu.au</td>
+								<td>Deakin University</td>
+							</tr>
+							<tr>
+								<td>Fang Dong</td>
+								<td>fdong@seu.edu.cn</td>
+								<td>Southeast University</td>
+							</tr>
+							<tr>
+								<td>Junwu Zhu</td>
+								<td>jwzhu@yzu.edu.cn</td>
+								<td>Yangzhou university</td>
+							</tr>
+							<tr>
+								<td>Siyao Cheng</td>
+								<td>csy@hit.edu.cn</td>
+								<td>Harbin Institute of Technology</td>
+							</tr>
+							<tr>
+								<td>Xiang Fei</td>
+								<td>aa5861@coventry.ac.uk</td>
+								<td>Coventry University</td>
+							</tr>
+							<tr>
+								<td>Yuxiang Wang</td>
+								<td>lsswyx@seu.edu.cn</td>
+								<td>Southeast University</td>
+							</tr>
+							<tr >
+								<td>Lu Liu</td>
+								<td>chinaliulu@hotmail.com</td>
+								<td>University of Derby</td>
+							</tr>
+							<tr>
+								<td>Genoveva Vargas</td>
+								<td>genoveva.vargas@imag.fr</td>
+								<td>French Council of Scientific Research</td>
+							</tr>
+							<tr>
+								<td>Cong Wang</td>
+								<td>congw@neuq.edu.cn</td>
+								<td>Notheasten University</td>
+							</tr>
+							<tr>
+								<td>Lintao Duan</td>
+								<td>uanlintao@cdu.edu.cn</td>
+								<td>Chengdu University</td>
+							</tr>
+							<tr>
+								<td>Xuejun</td>
+								<td>xjli@ahu.edu.cn</td>
+								<td>Anhui University</td>
+							</tr>
+							<tr>
+								<td>Peijian Wang</td>
+								<td>wpeijian@gmail.com</td>
+								<td>Xi'an Jiaotong University</td>
+							</tr>
+							<tr>
+								<td>Wei Li</td>
+								<td>liwei@it.usyd.edu.au</td>
+								<td>University of Sydney</td>
+							</tr>
+							<tr>
+								<td>Kaigui Bian</td>
+								<td>bkg@pku.edu.cn</td>
+								<td>Peking University</td>
+							</tr>
+							<tr>
+								<td>Wei Zheng</td>
+								<td>bkg@pku.edu.cn</td>
+								<td>Xiamen University</td>
+							</tr>
+							<tr>
+								<td>Jiahui Jin</td>
+								<td>jhjin@seu.edu.cn</td>
+								<td>Southeast University</td>
+							</tr>
+							<tr>
+								<td>Zhenhua Li</td>
+								<td>lizhenhua1983@gmail.com</td>
+								<td>Tsinghua University</td>
+							</tr>
+							<tr>
+								<td>Feng Li</td>
+								<td>fli@sdu.edu.cn</td>
+								<td>Shandong University</td>
+							</tr>
+							<tr>
+								<td>Heng Qi</td>
+								<td>hengqi@dlut.edu.cn</td>
+								<td>Dalian University of Technology</td>
+							</tr>
+							<tr>
+								<td>Zhigeng Han</td>
+								<td>hanzgnit@126.com</td>
+								<td>Nanjing Audit University</td>
+							</tr>
+							<tr>
+								<td>Yang Panlong</td>
+								<td>panlongyang@gmail.com</td>
+								<td>University of Science and Technology of China</td>
+							</tr>
+							<tr>
+								<td>Huai Liu</td>
+								<td>huai.liu@vu.edu.au</td>
+								<td>Victoria University</td>
+							</tr>
+							<tr>
+								<td>Chaobo He</td>
+								<td>hechaobo@foxmail.com</td>
+								<td>Zhongkai University of Agriculture and Engineering</td>
+							</tr>
+							<tr>
+								<td>Tao Xiang</td>
+								<td>xiangtaooo@gmail.com</td>
+								<td>Chongqing University</td>
+							</tr>
+							<tr>
+								<td>Zebin Wu</td>
+								<td>wuzb@njust.edu.cn</td>
+								<td>Nanjing University of Science and Technology</td>
+							</tr>
+							<tr>
+								<td>Jian Zhou</td>
+								<td>zhoujian@njupt.edu.cn</td>
+								<td>Nanjing University of Posts and Telecommunications</td>
+							</tr>
+							<tr>
+								<td>Tian Wang</td>
+								<td>wangtian@hqu.edu.cn</td>
+								<td>Huaqiao University</td>
+							</tr>
+							<tr>
+								<td>Sheng Zhang</td>
+								<td>sheng@nju.edu.cn</td>
+								<td>Nanjing University</td>
+							</tr>
+							<tr>
+								<td>Huming Chen</td>
+								<td>hc007@uowmail.edu.au</td>
+								<td>University of Wollongong</td>
+							</tr>
+							<tr>
+								<td>Xiaohua Tian</td>
+								<td>xtian@sjtu.edu.cn</td>
+								<td>Shanghai Jiao Tong University</td>
+							</tr>
+							<tr>
+								<td>Songtao Guo</td>
+								<td>stguo@swu.edu.cn</td>
+								<td>Southwest University</td>
+							</tr>
+							<tr>
+								<td>Jianming Yong</td>
+								<td>yongj@usq.edu.au</td>
+								<td>Univeristy of Southern Queensland</td>
+							</tr>
+							<tr>
+								<td>Haisheng Tan</td>
+								<td>hstan.hku@gmail.com</td>
+								<td>University of Science and Technology of China</td>
+							</tr>
+							<tr>
+								<td>Xiaolin Fang</td>
+								<td>xiaolin@seu.edu.cn</td>
+								<td>Southeast University</td>
+							</tr>
+							<tr>
+								<td>Hai Jiang</td>
+								<td>hjiang@astate.edu</td>
+								<td>Arkansas State Unviersity</td>
+							</tr>
+							<tr>
+								<td>Xiaobing Sun</td>
+								<td>sundomore@163.com</td>
+								<td>Yangzhou University/h5></td>
+							</tr>
+							<tr>
+								<td>Byeungwoo Jeon</td>
+								<td>bjeon@skku.edu</td>
+								<td>Sungkyunkwan University</td>
+							</tr>
+							<tr>
+								<td>Frank Jiang</td>
+								<td>frank.jiang@uts.edu.au</td>
+								<td>University of Technology Sydney</td>
+							</tr>
+							<tr>
+								<td>Hang Shen</td>
+								<td>helloshenhang@gmail.com</td>
+								<td>Nanjing Tech University</td>
+							</tr>
+							<tr>
+								<td>Fangming Liu</td>
+								<td>fangminghk@gmail.com</td>
+								<td>Huazhong University of Science and Technology</td>
+							</tr>
+							<tr>
+								<td>Zhiang Wu</td>
+								<td>zawuster@gmail.com</td>
+								<td>Nanjing University of Finance and Economics</td>
+							</tr>
+							<tr>
+								<td>Chao Tan</td>
+								<td>tutu.tanchao@gmail.com</td>
+								<td>Nanjing Normal University</td>
+							</tr>
+							<tr>
+								<td>Jieyue He</td>
+								<td>jieyuehe@seu.edu.cn</td>
+								<td>Southeast University</td>
+							</tr>
+							<tr>
+								<td>Fei Chen</td>
+								<td>chenfeiorange@163.com</td>
+								<td>Shenzhen University</td>
+							</tr>
+							<tr>
+								<td>Qingjun Xiao</td>
+								<td>csqjxiao@seu.edu.cn</td>
+								<td>Southeast University</td>
+							</tr>
+							<tr>
+								<td>Dayong Ye</td>
+								<td>dye@swin.edu.au</td>
+								<td>Swinburne University of Technology</td>
+							</tr>
+							<tr>
+								<td>Xiao Fu</td>
+								<td>xiaof@njupt.edu.cn</td>
+								<td>Nanjing University of Posts and Telecommunications</td>
+							</tr>
+							<tr>
+								<td>Peter Strazdins</td>
+								<td>Peter.Strazdins@cs.anu.edu.au</td>
+								<td>Australian National University</td>
+							</tr>
+							<tr>
+								<td>Rui Zhou</td>
+								<td>zhourui0196@gmail.com</td>
+								<td>Victoria University</td>
+							</tr>
+							<tr>
+								<td>Bin Zhao</td>
+								<td>zhourui0196@gmail.com</td>
+								<td>Nanjing Normal University</td>
+							</tr>
+							<tr>
+								<td>Dong Yuan</td>
+								<td>dong.yuan@sydney.edu</td>
+								<td>The University of Sydney</td>
+							</tr>
+							<tr>
+								<td>Mingfu Xue</td>
+								<td>mingfu.xue@nuaa.edu.cn</td>
+								<td>Nanjing University of Aeronautics and Astronautics</td>
+							</tr>
+							<tr>
+								<td>Xuyun Zhang</td>
+								<td>xyzhanggz@gmail.com</td>
+								<td>University of Technology Sydney</td>
+							</tr>
+							<tr>
+								<td>Jian Shen</td>
+								<td>s_shenjian@126.com</td>
+								<td>Nanjing University of Information Science and Technology</td>
+							</tr>
+							<tr>
+								<td>Domenico Talia</td>
+								<td>talia@dimes.unical.it</td>
+								<td>University of Calabria</td>
+							</tr>
+							<tr>
+								<td>Guangwei Bais</td>
+								<td>bai@njtech.edu.cn</td>
+								<td>Nanjing Tech University</td>
+							</tr>
+							<tr>
+								<td>Haipeng Dai</td>
+								<td>dhpphd2003@gmail.com</td>
+								<td>Nanjing University</td>
+							</tr>
+							<tr>
+								<td>Peng Chen</td>
+								<td>chenpeng@cs.indiana.edu</td>
+								<td>Facebook</td>
+							</tr>
+							<tr>
+								<td>Li Li</td>
+								<td>lily@swu.edu.cn</td>
+								<td>Southwest University</td>
+							</tr>
+							<tr>
+								<td>Liang Liu</td>
+								<td>liangliu82@gmail.com</td>
+								<td>Beijing University of Posts and Telecommunications</td>
+							</tr>
+							<tr>
+								<td>Mingming Lu</td>
+								<td>mingminglu@csu.edu.cn</td>
+								<td>Central South University</td>
+							</tr>
+							<tr>
+								<td>Dengao Li</td>
+								<td>lidengaoty@126.com</td>
+								<td>Taiyuan University of Technology</td>
+							</tr>
+							<tr>
+								<td>Xiaojiang Chen</td>
+								<td>xjchen@nwu.edu.cn</td>
+								<td>Northwest University</td>
+							</tr>
+							<tr>
+								<td>Wanchun Dou</td>
+								<td>douwc@nju.edu.cn</td>
+								<td>Nanjing University</td>
+							</tr>
+							<tr>
+								<td>Xiaofei Wang</td>
+								<td>xiaofeiwang@tju.edu.cn</td>
+								<td>Tianjin University</td>
+							</tr>
+							<tr>
+								<td>Jiyun Li</td>
+								<td>jyli@dhu.edu.cn</td>
+								<td>Donghua University</td>
+							</tr>
+							<tr>
+								<td>Lijuan Wang</td>
+								<td>lw840@uow.edu.au</td>
+								<td>Xidian University</td>
+							</tr>
+							<tr>
+								<td>Xuanzhe Liu</td>
+								<td>liuxuanzhe@pku.edu.cn</td>
+								<td>Peking University</td>
+							</tr>
+							<tr>
+								<td>Fan Yang</td>
+								<td>yangfan@udel.edu</td>
+								<td>Google</td>
+							</tr>
+							<tr>
+								<td>Hai Wang</td>
+								<td>hwang@nwu.edu.cn</td>
+								<td>Northwest University</td>
+							</tr>
+						-->
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--zds Keynotes
+<div class="pagePanel" id="Keynotes" style="margin-top:50px">
+	<div class="container">
+		<div class="row">
+			<div class="center-block">
+				<img src="./img/yanjiang.png" >
+			</div>
+			<div class="center-block">
+				<h3 style="text-align: center;" class="dabiaoti-2">Keynotes</h3>
+			</div>
+		</div>
+				
+		<div class="row align-paddng l_Keynotes">
+            <div class="col-md-12 col-xs-12 people round-border">
+                <div class="row">
+                    <div class="col-md-4 col-xs-4">
+                        <img src="./img/Schahram.jpg" class="img-circle" style="max-height:120px"/>
+                    </div>
+                    <div class="col-md-5 col-xs-8" style="text-align:left; line-height: 100px">
+                        <h4>Schahram Dustdar</h4>
+                        <h4>TU Wien, Austria</h4>
+                      
+                        <h5 style="text-align:left;margin-top:0px;">
+                            <a href="javascript:void(0)"
+                               onclick="showDialog('1')">More Information>>></a></h5>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-12 col-xs-12 people round-border">
+                <div class="row">
+                    <div class="col-md-4 col-xs-4">
+                        <img src="./img/KunYang.jpg" class="img-circle" style="max-height:120px"/>
+                    </div>
+                    <div class="col-md-5 col-xs-8" style="text-align:left; line-height: 100px">
+                        <h4>Kun Yang</h4>
+                        <h4>University of Essex, UK</h4>
+                       
+                        <h5 style="text-align:left;margin-top:0px;">
+                        
+                            <a href="javascript:void(0)"
+                               onclick="showDialog('2')">More Information>>></a></h5>
+                    </div>
+                </div>
+            </div>
+
+			<div class="col-md-12 col-xs-12 people round-border">
+                <div class="row">
+                    <div class="col-md-4 col-xs-4">
+                        <img src="./img/Niyato.jpg" class="img-circle" style="max-height:120px"/>
+                    </div>
+                    <div class="col-md-5 col-xs-8" style="text-align:left; line-height: 100px">
+                        <h4>Dusit Tao Niyato</h4>
+                        <h4>Nanyang Technological University, Singapore</h4>
+                      
+                        <h5 style="text-align:left;margin-top:0px;">
+                        
+                            <a href="javascript:void(0)"
+                               onclick="showDialog('5')">More Information>>></a></h5>
+                    </div>
+                </div>
+            </div>
+
+		</div>
+	</div>
+-->
+<!-- zds Program
+	<div class="pagePanel" id="Program" style="margin-top:20px">
+        <div class="container">
+            <div class="row">
+                <div class="center-block">
+                    <img src="./img/richeng.png">
+                </div>
+                <div class="center-block">
+                    <h3 style="text-align: center">Program</h3>
+                </div>
+            </div>
+            <div class="row align-paddng">
+                <div class="col-md-12">
+                    <h2></h2>
+                    <a target="_blank" style="color:red;font-weight:bold">
+                        </a><h4><a target="_blank" style="color:red;font-weight:bold">
+
+                     
+                            </a><a style="display:true" href="https://www.cbd-conference.net/2022/files/CBD2022-Program.pdf">
+                      
+
+                                <h4>CBD 2023 Final Program (coming soon)</h4>
+                            </a>
+
+                        </h4>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+<!--zds Registration and Final Paper Submission
+	<div class="pagePanel" id="Registration" style="margin-top:20px">
+		<div class="container">
+			<div class="row">
+				<div class="center-block">
+					<img src="./img/zhuce.png">
+				</div>
+				<div class="center-block">
+					<h3 style="text-align: center">Registration and Final Paper Submission</h3>
+				</div>
+			</div>
+
+			<div class="row align-paddng">
+				<div class="col-md-12">
+
+					<h2> Registration Procedure</h2>
+					
+					<a style="display:true" href="https://www.cbd-conference.net/2022/files/RegC2022.doc">
+						<h4>Download CBD2022 Registration Form </h4>
+					</a>
+					
+					<a style="display:true" href="https://www.cbd-conference.net/2022/files/RegE2022-EN.doc">
+						<h4>Download CBD2022 Registration Form (English)</h4>
+					</a>
+				
+				</div>
+				<div class="col-md-12">
+					<h2> Final Paper Submission</h2>
+					
+					<div class="row show align-paddng">
+						<div class="col-md-12 cfp">
+						<p class="justify">
+						Submission Site:
+						<a href="https://ieeecps.org/#!/auth/login?ak=1&pid=6jmRRPXBiQGlssgfc2A7iu">
+							<b>https://ieeecps.org/#!/auth/login?ak=1&pid=6jmRRPXBiQGlssgfc2A7iu</b>
+						</a>. <br>
+
+						Please carefully prepare and submit the camera ready paper before Oct 20, 2022 according to the instructions on the submission site.
+						</p>
+						</div>
+					</div>
+				    
+				</div>
+			</div>
+
+		</div>
+	</div>
+-->
+<!--zds Conference Location
+	<div class="pagePanel" id="Venue" style="margin-top:20px">
+		<div class="container">
+			<div class="row align-paddng">
+				<div class="center-block">
+					<img src="img/dizhi.png" >
+				</div>
+				<div class="center-block">
+					<h3 style="text-align: center;">Conference Location(Coming soon)</h3>
+				</div>
+			</div>
+			
+			<div style="display:true" class="row align-paddng">
+				<div class="col-md-12">
+					<div class="hr"></div>
+					<p class="hotel-name">GuiLin Bravo Hotel(桂林宾馆)</p>
+					<h4 class="Description">Description</h4>
+					<p class="hotel-description" style="text-align:justify">
+						The Guilin Hotel is the one four-STAR HOTEL in Guilin which has passed ISO9001 and ISO14001 international quality and environmental system certification. It is located in the famous scenic area of two rivers and four lakes in the city center and within 10 minutes’ walk to the commercial district, several minutes’ walk to the Elephant Trunk Hill Night Market. It is 29 km (30 minutes drive) far away from Guilin liangjiang international airport and 1.5 km from the Guilin railway station respectively. There are many kinds of facilities such as free parking, Chess and card room, Table tennis room, swimming pool, fitness room, massage room or sauna. Credit Card including UnionPay Card and Matster Card are all supported. Guests can enjoy Western breakfast and Buffet breakfast at the hotel restaurant surrounded by ancient trees, stone tablets, pavilions and clear water, just like a beautiful picture. Guilin Bravo Hotel is ideal for business trips and holidays.
+					</p>
+				</div>
+			</div>
+
+			<div class="row align-paddng">
+				<div class="center-block">
+					<img src="img/dizhi.png" >
+				</div>
+				<div class="center-block">
+					<h3 style="text-align: center">Hotels Information</h3>
+				</div>
+			</div>
+			<div style="display:true" class="row align-paddng">
+				<div class="col-md-12">
+					<div class="hr"></div>
+					<p class="hotel-name">GuiLin Bravo Hotel (桂林宾馆)</p>
+					<p class="hotel-address">Location: 14 Ronghu South Road, Xiangshan District, Guilin, China. </p>
+
+					<p class="hotel-contact"><i class="fa fa-tty fa-lg"></i>&nbsp;&nbsp;
+						<span style="color:red;font-weight:bold">For room reservation </span>
+						Contact: +86-13977318110
+					</p>
+
+					<p class="hotel-contact"><i class="fa fa-money fa-lg"></i>&nbsp;&nbsp;
+						<span style="color:red;font-weight:bold">Negotiated price:</span>
+						Standard One Queen Bed Room/Two Single Bed Room, RMB330/night, breakfast included. Superior One Queen Bed Room/Two Single Bed Room, RMB350/night, breakfast included. Lakeview Room, RMB400/night, breakfast included.
+					</p>
+				</div>
+			</div>
+
+			<div style="display:true" class="row align-paddng">
+				<div class="col-md-12">
+					<div class="hr"></div>
+					<p class="hotel-name">Vienna Hotel Guilin Zhongshan  (桂林维也纳酒店中山路店)</p>
+					<p class="hotel-address">Location: No. 3 Zhongshan Middle Road, Xiangshan District, Guilin, China.</p>
+
+					<p class="hotel-contact"><i class="fa fa-tty fa-lg"></i>&nbsp;&nbsp;
+						<span style="color:red;font-weight:bold">For room reservation </span>
+						Contact: +86-13977318110
+					</p>
+
+					<p class="hotel-contact"><i class="fa fa-money fa-lg"></i>&nbsp;&nbsp;
+						<span style="color:red;font-weight:bold">Negotiated price:</span>
+						Standard One Queen Bed Room/Two Single Bed Room, RMB234/night, breakfast included. Superior One Queen Bed Room/Two Single Bed Room, RMB251/night, breakfast included.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+-->
+	<div class="pagePanel" id="contactus" style="margin-top:20px">
+		<div class="continer">
+			<div class="row">
+				<div class="center-block">
+					<h3 style="text-align: center;" class="dabiaoti-2">Contact Us</h3>
+				</div>
+			</div>
+
+			<div class="row align-paddng">
+				<div class="col-md-2">
+					<!--<img src="./images/cse.png"/>-->
+				</div>
+				
+				<div class="center-block">
+					<h4 style="text-align: center ;">Na Song,Hainan University,China </h4>
+					<h4 style="text-align: center ;">Tel:15205905521 Email:nasong1010@163.com</h4>
+					<!--zds
+					<h4>Hainan University, China</h4>
+					<h4>Tel: 15205905521</h4>
+					<h4>Email: nasong1010@163.com</h4>
+				-->
+				</div>
+			
+			</div>
+		</div>
+	</div>
+
+	<div class="pagePanel" id="Organizers1" style="margin-top:20px;padding:10px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-xs-4">
+					<h5 style="margin-top: 30px;">Organized by</h5>
+				</div>
+				<div class="col-md-6 col-xs-8">
+					<div class="row" style="line-height: 90px;">
+						<div class="col-md-8 col-xs-3">
+							<img src="./img/sh.png" style="max-height: 80px; vertical-align: middle">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-2 col-xs-4">
+					<h5 style="margin-top:40px">Co-Sponsored by</h5>
+				</div>
+				<div class="col-md-10 col-xs-8">
+					<div class="row" style="line-height: 90px;">
+						<div class="col-md-12 col-xs-3">
+							<img src="./img/mp.png" style="max-height: 80px;  vertical-align: middle">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div class="row" style="margin-top: 15px !important">
+				<div class="col-md-2 col-xs-4">
+					<h5 style="margin-top:10px">Funded by</h5>
+				</div>
+				<div class="col-md-10 col-xs-8" style="margin-top:10px;font-weight: 500">
+					2021 The Ninth International Conference on Advanced Cloud and Big Data
+				</div>
+			</div> -->
+		</div>
+	</div>
+
+	<div class="pagePanel" id="banquan" style="width:100%;padding-top:20px;height:60px;background-color: #393939;margin-top:10px">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" style="color:#FFF;text-align: center">
+					Copyright 2023 International Conference on
+					Advanced Cloud and Big Data. All Rights Reserved.
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="modal fade auditPartner" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+			aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content" id="auditDiv" style="padding:10px;border:1px solid #729BFF">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel"></h4>
+				</div>
+				<div class="modal-body"></div>
+			</div>
+
+		</div>
+	</div>
+	<SCRIPT>
+		function firstpanel() {
+			var obj = document.getElementById("Forum");
+			obj.style.display = "none";
+		}
+
+		function secondpanel() {
+			var obj = document.getElementById("Forum");
+			obj.style.display = "";
+		}
+	</SCRIPT>
+	<script src="./vendor/jquery/jquery.min.js"></script>
+	<script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="./vendor/poptip/tips.js"></script>
+	<script src="./js/util/util.js"></script>
+	<script type="text/javascript" src="./js/list315.js"></script>
+</div>
+</body>
+</html>
+<!-- <script src="js/panal.js" type="text/javascript" charset="utf-8"></script> -->
